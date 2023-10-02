@@ -1,0 +1,528 @@
+*{
+   margin: 0;
+   font-family: Roboto; 
+
+}
+body {
+   width: 1024px;;
+}
+
+/* seccion top */
+
+#top {
+   width: 1024px;
+   height: 20px;
+   flex-shrink: 0;
+   background-color: #222222;
+   color: #000000;
+   font-size: 10px;
+   font-weight: 400;
+   line-height: 12px;
+   letter-spacing: 0em;
+   display: flex;
+   align-items: center;
+}
+
+.opciones {
+   margin-left: 604px;
+}
+
+.titulo {
+   margin-left: 30px;
+}
+
+select {
+   background-color: #222222;
+   color: #F3F3F3;
+   border: none;
+}
+
+.titulo span {
+   font-size: 15px;
+}
+
+/* seccion encabezado */
+
+#encabezado {
+   width: 1024px;
+   height: 62px;
+   flex-shrink: 0;
+   display: flex;
+   align-items: center;
+   background-color: #ff0000;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 23px;
+
+}
+
+#encabezado span {
+   font-size: 25px;
+   margin-top: 5px;
+
+}
+
+.logo {
+   margin-left: 40px;
+   display: flex;
+}
+
+nav {
+   display: flex;
+   color: #000000;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin-left: 400px;
+}
+
+a {
+   text-decoration: none;
+   margin-right: 20px;
+   color: #FFF;
+   font-family: Roboto;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.marron {
+   color:#3C2313 !important;
+}
+
+.blanco {
+   color: #FFFFFF;
+}
+
+.verde {
+   color: #0a9500 !important;
+}
+
+#encabezado ul {
+   list-style: none;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 15px;
+   text-decoration: none;
+
+}
+/* seccion banner */
+
+#banner {
+   width: 1024px;
+   background-image: url(../img/best-gaming-background-d36rt32b2426dgqr.jpg);
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+
+
+
+}
+#banner h1 {
+   color: #21791b;
+   font-size: 35px;
+   font-weight: 900;
+   line-height:normal;
+   width: 1000px;
+   height: 54px;
+   margin-top: 30px;
+   text-align: center;
+   font-style: normal;
+}
+
+#banner img {
+   margin-left: 200px;
+   margin-top: 70px;
+}
+
+
+/* seccion productos destacado */
+
+
+#productosDestacados {
+   width: 1024px;
+   flex-shrink: 0;
+}
+
+#productosDestacados img{
+
+   margin-left: 440px;
+   margin-top: 50px;
+  
+}
+
+
+
+#titulo2 {
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 47px;
+   text-align: center;
+   margin-top: 5px;
+   font-weight: 900;
+   font-size: 35px;
+   padding:  15px 20px;
+   display: block;
+   margin: 20px 300px;
+   text-decoration: none;
+   margin-top: 7%;
+   border: 3px solid #ff0000;
+   text-shadow: 1px 1px 4px #ff0011;
+   background-color:#570b0b
+}
+
+.productos {
+   display: flex;
+   justify-content: center;
+}
+
+#productosDestacados article {
+   margin-top: 49px;
+   text-align: center;
+}
+
+
+/* seccion formulario */
+
+#formulario {
+   width: 1024px;
+}
+
+#formulario h3 {
+   text-align: center;
+   color: #3C2313;;
+   font-size: 32px;
+   font-weight: 900;
+   line-height: 29px;
+   margin-top: 78px;
+
+}
+
+#formulario form {
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+#formulario input {
+   background: #3C2313;
+   width: 340px;
+   height: 40px;
+   border-radius: 15px;
+   margin-top: 10px;
+
+}
+
+input::placeholder {
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 11px;
+   color: #FFFFFF;
+
+
+}
+
+#formulario button {
+   width: 110px;
+   height: 34px;
+   border-radius: 15px;
+   color: #FFFFFF;
+   border: none;
+}
+
+#formulario [type="submit"] {
+   background-color: #F0A83E;
+   margin-left: 6px;
+}
+
+#formulario [type="reset"] {
+   background-color: #8A8787
+}
+
+.boton {
+   margin-top: 41px;
+   display: flex;
+   justify-content: center;
+}
+
+/* seccion suscripcion */
+
+#suscripcion {
+   width: 1024px;
+   background-color: #000000;
+   height: 80px;
+   margin-top: 82px;
+   display: flex;
+   align-items: center;
+}
+
+#suscripcion img {
+   margin-left: 23px;
+}
+
+#suscripcion span {
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 23px;
+   color: #FFFFFF;
+   margin-left: 10px;
+   margin-top: 3px;
+
+}
+
+#suscripcion input {
+   background: #FFFFFF;
+   width: 271px;
+   height: 40px;
+   border-radius: 15px;
+   margin-left: 278px;
+   
+}
+
+#suscripcion input::placeholder {
+   color: #A0A0A0;
+   font-size: 9px;
+   font-weight: 400;
+   line-height: 11px;
+}
+
+#suscripcion button {
+   background-color: #3C2313;
+   width: 70px;
+   height: 34px;
+   border-radius: 15px;
+   color: #FFFFFF;
+   font-family: Roboto;
+   font-size: 9px;
+   font-weight: 700;
+   line-height: 11px;
+
+
+}
+
+/* seccion contacto */
+
+#contacto {
+   width: 1024px;
+   height: 284px;
+   background-color: #500505;
+   display: flex;
+   flex-direction: column;
+
+}
+
+#contacto article {
+   margin-left: 70px;
+   margin-top: 20px;
+}
+
+#contacto article div {
+   display: flex;
+   
+}
+
+#contacto h3 {
+   color: #FFF;
+   margin-left: 25px;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+#contacto h6 {
+   color: #8A8787;
+   margin-top: 20px;
+}
+
+.containerIcono1 h6 {
+   margin-left: -85px;
+}
+.containerIcono2 h6 {
+   margin-left: -70px;
+}
+.containerIcono3 h6 {
+   margin-left: -162px;
+}
+
+#contacto .logo {
+   margin-left: 788px;
+   margin-top: -128px;
+}
+
+/* seccion derechos */
+
+#derechos {
+   width: 1024px;
+   height: 20px;
+   flex-shrink: 0;
+   background: #ff0000;
+}
+
+#derechos p {
+   color: #FFF;
+   font-size: 10px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-align: center;
+}
+
+
+
+
+/* ccs para las cards */
+
+.container {
+   width: 100%;
+   display: flex;
+   height: 800px;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 10%;
+   background-image: linear-gradient(to bottom, #0f0f10, #670303, #c10404); /* Gradiente de arriba a abajo de azul a azul más oscuro */
+    
+}
+
+.card0 {
+   background-color: #000000;
+   width: 300px;
+   height: 300px;
+   border-radius: 15px;
+   border: 5px solid #ff0000;
+
+
+}
+
+.card-image {
+   height: 90px;
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 10px 10px 0 0;
+}
+
+
+.card0 a {
+   background-color: #6f0000;
+   color: #ffffff;
+   padding:  10px 15px;
+   display: block;
+   text-align: center;
+   margin: 25px 90px;
+   font-size: 17px;
+   text-decoration: none;
+   margin-top: 10%;
+   border-radius: 10px;
+   border: 3px solid #ff0000;
+   font-weight: 900;
+
+}
+
+.card0 h2  { 
+   text-align: center;
+   margin-top: 8%;
+   font-size: 27px;
+   color: #EFF5F5;
+   font-style:italic;
+}
+
+
+.card0 p{
+   margin-top: 5%;
+   margin-left: 2%;
+   font-size: 16px;
+   width: 95%;
+   text-align: justify;
+   color: #EFF5F5;
+
+}
+
+.h1Titulo {
+   color: #000000;
+   font-size: 36px;
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+   letter-spacing: 5px;
+
+
+}
+
+.parrafoProducto {
+   color: #000000;
+   font-size: 18px;
+   opacity: 0.9;
+   font-weight: 900;
+   margin-top: 20px;
+   width: 70%;
+
+}
+
+.back{
+   background-color: #050505;
+   color: #ff0000;
+   display: block;
+   text-align: center;
+   margin: 70px 300px 20px;
+   font-size: 25px;
+   text-decoration: none;
+   border-radius: 10px;
+   border: 15px solid #000000;
+   font-weight: 900;}
+
+#container-producto {
+   width: 1024px;
+
+}
+
+.productoImagen {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   width: 450px;
+   height: 300px;
+}
+
+.detalles-producto {
+   width: 1024px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   
+
+}
+
+.container-imagenes {
+   width: 1024px;
+   display: flex;
+   margin-top: 25px;
+   justify-content: center;
+
+}
+
+.h2fotos{
+   text-align: center;
+   margin-top: 50px;
+   font-size: 30px;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.masImagenes {
+   width: 300px;
+   height: 250px;
+   margin-top: 25px;
+   margin-left: 50px;
+}
+

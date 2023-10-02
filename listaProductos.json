@@ -1,0 +1,78 @@
+{
+    "productos":[
+        {
+          "id": 1,
+          "nombre": "Jostick Logitech",
+          "imagenPortada": "./img/DSC03752.jpg",
+          "imagen1":"./img/f310-gallery-1.webp" ,
+          "imagen2":"./img/f310-gallery-2.webp" ,
+          "imagen3":"./img/f310-gallery-3.webp" ,
+          "precio": "$14.650",
+          "descripcion": "Mando de dirección con cuatro interruptores para disponer de un control preciso y la típica distribución de consola.",
+          "detalles": "Para jugar con grandes éxitos y clásicos. Juega a versiones de consola con un controlador al estilo del original o adopta una posición más relajada mientras disfrutas de los juegos para PC. F310 se configura y se usa fácilmente con los juegos favoritos gracias a XInput/DirectInput1Requiere. Nuestros dispositivos de juego funcionan bien con los televisores Android TV™ de Sony. Con el conmutador en el modo XID, la distribución tipo consola te coloca en una posición ventajosa",
+          "puntuacion": 4.7
+        },
+        {
+          "id": 2,
+          "nombre": "Mouse Logitech",
+          "imagenPortada": "./img/logitech-g502-lightspeed.jpg",
+          "imagen1":"./img/g502-lightspeed-gallery-1.webp" ,
+          "imagen2":"./img/g502-lightspeed-gallery-4.webp" ,
+          "imagen3":"./img/g502-lightspeed-gallery-6.webp" ,
+          "precio": "$45.300",
+          "descripcion": "G502 LIGHTSPEED Wireless Gaming Mouse, ha ocupado las primeras posiciones de las listas generación tras generación.",
+          "detalles": "El mouse G502 se une a las filas de los mouse inalámbricos para juegos más avanzados del mundo con el lanzamiento de G502 LIGHTSPEED. LIGHTSPEED es una tecnología ultrarrápida y confiable con desempeño probado en competencia por profesionales de eSports. G502 LIGHTSPEED posee además el sensor de próxima generación HERO 25K y es compatible con POWERPLAY. Junto con esta novedosa tecnología avanzada, G502 LIGHTSPEED mantiene esa forma apreciada por todos y logra una reducción de peso de 7 gramos.",
+          "puntuacion": 4.6
+          
+        },
+        {
+          "id": 3,
+          "nombre": "Auriculares Gamer",
+          "imagenPortada": "./img/design-medium.jpg",
+          "imagen1":"./img/gallery-1-pro-x-2-lightspeed-gaming-headset-black.webp" ,
+          "imagen2":"./img/gallery-4-pro-x-2-lightspeed-gaming-headset-black.webp" ,
+          "imagen3":"./img/gallery-5-pro-x-2-lightspeed-gaming-headset-black.webp" ,
+          "precio": "$191.500",
+          "descripcion": "PRO X 2 LIGHTSPEED, diseñados con los profesionales para alcanzar los más altos niveles de competencia.",
+          "detalles":"Diseñados con los profesionales. Concebidos para ganar. Los audífonos con micrófono PRO X 2 LIGHTSPEED ofrecen sonido profesional, tecnología inalámbrica LIGHTSPEED y confort superior para alcanzar los más altos niveles de competencia. Oye cada paso, acción y tiro de anilla de granada con el inmersivo espacio sonoro que posibilitan los transductores de grafeno.Consigue hasta 50 horas de uso con una sola carga, además de un robusto radio de acción de conexión de hasta 30 metros.",
+          "puntuacion": 4.3
+        },
+        {
+          "id": 4,
+          "nombre": "Microfono U S B",
+          "imagenPortada": "./img/D_NQ_NP_725922-MLA41735441112_052020-O.webp",
+          "imagen1":"./img/yeti-nano-microphones-front-view-shadow-grey.webp" ,
+          "imagen2":"./img/yeti-nano-microphones-three-quarter-view-shadow-grey.webp" ,
+          "imagen3":"./img/yeti-nano-microphones-side-view-shadow-grey.webp" ,
+          "precio": "$110.890",
+          "descripcion": "Yeti Nano ofrece sonido con calidad de difusión para podcasts, videos de YouTube, streaming en Twitch y llamadas con Zoom.",
+          "detalles": "Inspirado en el legendario Yeti, Yeti Nano combina una fabulosa calidad de sonido y excelentes efectos de voz Blue VO!CE para streaming y grabaciones profesionales. *Requires download and installation of the free G HUB software. La suspensión antivibraciones interna de Yeti Nano protege el conjunto de dos cápsulas y contribuye a la nitidez del contenido, con la atención centrada en tu voz.",
+          "puntuacion": 4.1
+        },
+        {
+          "id": 5,
+          "nombre": "Volante Logitech",
+          "imagenPortada": "./img/logitech-g29-review.jpg",
+          "imagen1":"./img/g920-gallery-1-1.webp" ,
+          "imagen2":"./img/g920-gallery-3-1.webp" ,
+          "imagen3":"./img/drivingforce-gallery-4.webp" ,
+          "precio": "$310.450",
+          "descripcion": "Volante de carreras para Xbox, PlayStation y PC, con un diseño impecable para ofrecer la experiencia de manejo perfecta.",
+          "detalles": "G920/G29 diseñado para ofrecer la experiencia de conducción perfecta, con Force Feedback con dos motores, palancas de cambio de acero inoxidable y volante de cuero cosido a mano. Los pedales ajustables permiten acelerar, frenar y cambiar de marcha con la misma sensación que un auto de verdad. riving Force de Logitech G lleva los juegos de carreras más recientes al más alto nivel.",
+          "puntuacion": 4.0
+        },
+        {
+            "id": 6,
+            "nombre": "WebCam PRO",
+            "imagenPortada": "./img/51c95dee0512350a0c2a32781675ffc6.jpg_720x720q80.jpg",
+            "imagen1":"./img/c922-gallery-1.webp" ,
+            "imagen2":"./img/c922-gallery-4.webp" ,
+            "imagen3":"./img/c922-gallery-3.webp" ,
+            "precio": "$70.220",
+            "descripcion": "Cámara web para streaming HD 720p a 60 fps. Conexión nítida en directo para canales como Twitch y YouTube.",
+            "detalles":"Con C922 PRO HD STREAM WEBCAM graba y haz streaming de videos totalmente naturales. La C922 tiene una lente de cristal con enfoque automático y un campo visual diagonal de 78°. La resolución de streaming Full HD captura todos los detalles, el brillo, los colores naturales y ofrece video fluido a 1080p/30 fps (720p/60 fps en HD). Usa el software Capture para funciones de zoom, panorámica y edición.",
+            "puntuacion": 4.9
+          }
+
+    ]
+}
