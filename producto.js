@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
       <h1 class= "h1Titulo">Producto: ${productoElejido.nombre}</h1>
       <img class="productoImagen" src=${productoElejido.imagenPortada} >
       <p class="parrafoProducto">Descripcion: ${productoElejido.descripcion}</p>
-      <p class="parrafoProducto">Detalles: ${productoElejido.detalles}</h2>
-      <p class="parrafoProducto">Precio: ${productoElejido.precio}</h2>
-      <p class="parrafoProducto">Puntuacion: ${productoElejido.puntuacion}</p>
+      <p class="parrafoProducto ">Detalles: ${productoElejido.detalles}</h2>
+      <p class="parrafoProducto ">Precio: ${productoElejido.precio}</h2>
+      <p class="parrafoProducto ">Puntuacion: ${productoElejido.puntuacion}</p>
 
       `;
       productoDetallado.appendChild(containerProductoElegido);
