@@ -1,6 +1,6 @@
 fetch("./listaProductos.json")
   .then((respuesta) => respuesta.json())
-  .then((datos) => localStorage.setItem("productos", JSON.stringify(datos)));
+  .then((datos) => localStorage.setItem("productos", JSON.stringify(datos)),
 
 document.addEventListener("DOMContentLoaded", () => {
   const gridProductos = document.getElementById("grid-productos");
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
   }
-});
+}));
 
 function productoDetallado(producto) {
   window.location.href = `productos.html?id=${producto.id}`;
